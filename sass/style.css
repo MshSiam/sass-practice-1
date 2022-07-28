@@ -1,9 +1,4 @@
-.scoop,
-.lemon,
-.orange,
-.strawberry,
-.vanilla,
-.chocolate {
+.scoop, .lemon, .orange, .strawberry, .vanilla, .chocolate {
   width: 100px;
   height: 80px;
   border-radius: 100%;
@@ -11,12 +6,7 @@
   margin-bottom: -45px;
   z-index: 3;
 }
-.scoop::after,
-.lemon::after,
-.orange::after,
-.strawberry::after,
-.vanilla::after,
-.chocolate::after {
+.scoop::after, .lemon::after, .orange::after, .strawberry::after, .vanilla::after, .chocolate::after {
   content: "";
   position: absolute;
   bottom: 10px;
@@ -26,20 +16,10 @@
   border-radius: 100%;
   z-index: 2;
 }
-.scoop:first-of-type,
-.lemon:first-of-type,
-.orange:first-of-type,
-.strawberry:first-of-type,
-.vanilla:first-of-type,
-.chocolate:first-of-type {
+.scoop:first-of-type, .lemon:first-of-type, .orange:first-of-type, .strawberry:first-of-type, .vanilla:first-of-type, .chocolate:first-of-type {
   margin-bottom: 0px;
 }
-.scoop:hover,
-.lemon:hover,
-.orange:hover,
-.strawberry:hover,
-.vanilla:hover,
-.chocolate:hover {
+.scoop:hover, .lemon:hover, .orange:hover, .strawberry:hover, .vanilla:hover, .chocolate:hover {
   transform: scale(1.1);
 }
 
@@ -51,8 +31,8 @@
 }
 
 body {
-  background: #3b3b41;
-  color: #a2a5b9;
+  background: #f3f3f3;
+  color: #1d2129;
   font-family: Helvetica;
   font-size: 14px;
   overflow-y: hidden;
@@ -62,13 +42,13 @@ a {
   text-decoration: none;
 }
 a:link {
-  color: tan;
+  color: #385898;
 }
 a:visited {
   color: green;
 }
 a:hover {
-  color: #a2a5b9;
+  color: #1d2129;
 }
 a:active {
   color: #385898;
@@ -150,10 +130,4 @@ a:active {
 }
 .footer span {
   color: red;
-}
-.footer p {
-  text-align: center;
-  margin: 0 auto;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
